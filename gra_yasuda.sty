@@ -1,0 +1,138 @@
+% 藤田桂英研究室栄光の卒論用TeXフォーマット
+% なるべくコメントを書いているので, これを改造して修論用のフォーマットも作るといいよ
+% 2013/11/22 安田将典
+
+
+%\NeedsTeXFormat{LaTeX2e}
+%\ProvidesPackage{graduation_yasuda}
+
+\usepackage[dvips]{graphicx}    % グラフィカルな操作に必要です
+%\usepackage{epsbox}             % 図を使いたい時に必要です
+\usepackage{amssymb}            % 使える数式が増えます
+
+\bibliographystyle{junsrt}
+\renewcommand{\bibname}{参考文献}
+
+
+%上部の余白
+\setlength{\topmargin}{30mm}
+\addtolength{\topmargin}{-1in}
+
+%奇数ページの左余白
+\setlength{\oddsidemargin}{30mm}
+\addtolength{\oddsidemargin}{-1in}
+
+%偶数ページの左余白
+\setlength{\evensidemargin}{30mm}
+\addtolength{\evensidemargin}{-1in}
+
+%下と右の余白は本文の長さからだす
+%本文横の長さ
+\setlength{\textwidth}{160mm}
+%本文縦の長さ
+\setlength{\textheight}{237mm}
+
+%\setlength{\baselineskip}{21pt}
+
+%ヘッダーとフッターの余白を指定
+\setlength{\headsep}{0mm}
+\setlength{\headheight}{0mm}
+\setlength{\topskip}{0mm}
+
+%行間の余白を指定
+%\renewcommand{\baselinestretch}{1.2}
+%\setstretch{1.6}
+
+% コマンドの定義
+\def\etitle#1{\def\@etitle{#1}}
+\def\eauthor#1{\def\@eauthor{#1}}
+\def\enteryear#1{\def\@enteryear{#1}}
+\def\studentnumber#1{\def\@studentnumber{#1}}
+\def\graduateyear#1{\def\@graduateyear{#1}}
+
+\newcommand{\figref}[1]{図~\ref{#1}}		% \figref
+\newcommand{\tabref}[1]{表~\ref{#1}}		% \tabref
+\newcommand{\equref}[1]{式~(\ref{#1})}		% \equref
+
+\newcommand{\chapref}[1]{第~\ref{#1}章}		% \chapref
+\newcommand{\secref}[1]{第~\ref{#1}節}		% \secref
+
+
+\setcounter{secnumdepth}{3}
+%\renewcommand{\thesection}{第\arabic{section}節}
+%\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+%\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+% \long\defだと改行がきくようになるらしい。よくわかりません。
+\def\abstract#1{\long\def\@abstract{#1}}
+\def\@abstract{}
+
+%タイトルページの定義
+%概要と目次までここで設定している
+% texファイルでは \documents のあとに \mktitle　と書くとタイトルが挿入される
+\renewcommand\maketitle{
+ \begin{titlepage}
+ %タイトル
+ %いちいちcenterにしているのは技術不足です.
+ %一行にまとめて\newpageすると、コマンドの長さまで含めて中央揃いされてしまった...
+  \thispagestyle{empty}
+  \begin{center}{\Huge \@title{}} \end{center}
+  \begin{center}{\Large \@etitle{}} \end{center} \vspace{1.6cm}
+  \begin{center}{\Huge \@author{}　　} \end{center}
+  \begin{center}{\Large \@eauthor{}} \end{center}
+  \begin{center}{\Large (\@enteryear{}年度入学, \@studentnumber{})} \end{center} \vfill
+
+
+  \begin{center}
+    \includegraphics[width=0.3\linewidth]{image/my.eps}
+    \label{eps:Constraints}	% ファイルのラベル
+  \end{center}
+
+
+  \begin{center}{\Huge 指導教員　藤田 桂英　准教授　　} \end{center}\vspace{1.6cm}
+  \begin{center}{\Large 東京農工大学 工学部 情報工学科} \end{center}
+  \begin{center}{\Large \@graduateyear{}年度卒業論文} \end{center}
+  \begin{center}{\Large (\@date{}提出)} \end{center}
+
+%  \newpage
+%  \thispagestyle{empty}
+%  \mbox{}
+  \newpage
+
+  \thispagestyle{empty}
+  \begin{center}{\large 東京農工大学 工学部 情報工学科 \@graduateyear{}年度 卒業論文 要旨} \end{center}
+  \begin{center}{\large 題目}{\Large \bf \, \@title{}} \end{center}
+  \begin{center}{\large \@etitle{}} \end{center}
+  \begin{center}{\large 学籍番号 \@studentnumber{} 　　氏名 \@author{}(\@eauthor{})} \end{center}
+  \begin{center}{\large 提出日　\@date{}} \end{center}
+  \bigskip \input{abstract}
+
+
+%  \newpage
+%  \thispagestyle{empty}
+%  \mbox{}
+  \newpage
+
+  % 目次ページ
+  % 目次を正しく表示するためには, ２回タイプセットする必要がある
+%  \newpage
+  \setcounter{page}{1}
+  \pagenumbering{roman}
+  \tableofcontents
+
+  % 図目次
+  \newpage
+  \listoffigures
+
+  % 表目次　必要な場合だけコメントアウトを消してください
+  \newpage
+  \listoftables
+
+  \end{titlepage}
+  \pagenumbering{arabic}
+}
+
+%無限にのばせる空白は
+%\vfill
+%太字は
+%\bf
