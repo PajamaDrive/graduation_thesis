@@ -7,11 +7,56 @@
 % Chapter 4
 \chapter{予備実験}\label{cha:4}
 
+\section{目的と概要}
+提案手法に用いる各種パラメータを決定することを目的としてエージェント同士での交渉を行う実験を行う．
+具体的には提案手法の戦略を適用した8つのエージェントと予備実験用の戦略を適用したエージェントでそれぞれ交渉を行う．
+本実験では，提案手法の戦略を適用したエージェントの獲得効用が高いほど良いパラメータであると評価する．
+
 \section{実験設定}
+本実験では，各論点が0\sim 5の計6つの水準を有する，4つの論点について交渉を行う．
 
-\subsection{実験で使用したドメイン}
+本実験で用いるドメインの詳細およびパラメータを表\ref{tab:pre_domain}，表\ref{tab:pre_para}にそれぞれ示す．
 
-\subsection{パラメータ設定}
+\begin{table}[htb]
+  \begin{center}
+    \caption{予備実験で用いるドメイン}
+    \label{tab:pre_domain}
+    \begin{tabular}{|c|c|c|c|} \hline
+      論点数 & 各論点の水準数 & 繰り返し回数 & BATNA \\ \hline \hline
+      4 & 6 & 5 & 4 \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[htb]
+  \begin{center}
+    \caption{予備実験で用いるパラメータ}
+    \label{tab:pre_para}
+    \begin{tabular}{|c|c|c|c|c|} \hline
+      \alpha の初期値 & \alpha の増分 & \beta の初期値 & \beta の増分 & \beta の更新回数 \\ \hline \hline
+      0.0 \sim 8.0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \sim 4.0 & 1 \sim 10 \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+本実験では表\ref{tab:pre_domain}に示したように，1セット5回の交渉を行う．各論点の価値は1セットごとにランダムに変化させる．
+各論点の価値は1 \sim 4の間の値で重複はない．
+また，提案手法のエージェントにとって価値が一番高いものは予備実験用のエージェントにとって一番価値が低いといったように，一方にとって価値が高いものはもう一方にとって価値が低くなるように設定する．
+各論点の価値の例を表\ref{tab:pre_value}に示す．
+論点1を例にとると，提案手法のエージェントにとっての価値は4であり，一番価値がある論点となる．
+対して予備実験用のエージェントにとっての価値は1であり，一番価値がない論点となる．
+
+\begin{table}[htb]
+  \begin{center}
+    \caption{各論点の価値}
+    \label{tab:pre_value}
+    \begin{tabular}{|c|c|c|c|c|} \hline
+       & 論点1の価値 & 論点2の価値 & 論点3の価値 & 論点4の価値 \\ \hline \hline
+      提案手法のエージェント & 4 & 2 & 3 & 1 \\ \hline
+      予備実験用のエージェント & 1 & 3 & 2 & 4 \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
 
 \section{実験結果と考察}
 

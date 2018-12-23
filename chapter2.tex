@@ -10,9 +10,31 @@
 \section{自動交渉エージェント競技会(ANAC)}
 
 \subsection{ANAC}
+自動交渉エージェント競技会(Automated Negotiation Agent Competition)\cite{iago}
 
 \subsection{IAGO}
+IAGO(Interactive Arbitration Guide Online)はANACのHuman-agent Negotiationリーグで使用される自動交渉のプラットフォームである．
+IAGOのインタフェースを図\ref{fig:iago}に示す．IAGOでは，人間と交渉を行うエージェントおよび交渉のドメインを作成することが可能である．IAGOの特徴として以下の3点が挙げられる\cite{pinocchio}．
 
+\begin{enumerate}
+  \item WEB上で動作する
+  \item APIが公開されている
+  \item 人間同士の交渉で用いられるチャネルが利用可能
+\end{enumerate}
+
+第1の特徴により，エージェントと交渉を行うクライアントはWEBブラウザ上で交渉を行うことが可能である．
+したがって，クライアントはソフトウェアのインストールなどを行うことなく交渉を開始することができる．
+第2の特徴により，競技会や研究のためのエージェントおよび交渉ドメインの設計を容易に行うことが可能となる．
+第3の特徴により，エージェントおよびクライアントは感情の表出，メッセージの送信，選好の公開および誘発などを交渉中に行うことが可能となる．
+これにより，人間同士の交渉で用いられるチャネルによる交渉結果への影響を研究することおよび
+これらのチャネルを利用した交渉を行うエージェントを作成することが容易となる．
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=15truecm]{image/IAGO.eps}
+  \caption{IAGOのインタフェース}
+  \label{fig:iago}
+\end{figure}
 
 %内容ここまで
 
