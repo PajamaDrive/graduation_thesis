@@ -6,23 +6,25 @@
 \contentsline {section}{\numberline {2.1}自動交渉エージェント競技会(ANAC)}{2}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}ANAC}{2}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}IAGO}{2}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {第3章}繰り返し交渉戦略の提案}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}段階的要請法(Foot-in-the-Door technique)}{4}{section.3.1}
-\contentsline {section}{\numberline {3.2}譲歩的要請法(Door-in-the-Face technique)}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}段階的要請法と譲歩的要請法を組み合わせた交渉戦略の提案}{5}{section.3.3}
-\contentsline {chapter}{\numberline {第4章}予備実験}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}目的と概要}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}実験設定}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}実験結果と考察}{9}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}パラメータ\alpha の実験結果と考察}{9}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}パラメータ\beta の実験結果と考察}{9}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {第5章}評価実験}{10}{chapter.5}
-\contentsline {section}{\numberline {5.1}実験設定}{10}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}実験で使用したドメイン}{10}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}パラメータ設定}{10}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}実験結果と考察}{10}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}パラメータ\alpha の実験結果と考察}{10}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}パラメータ\beta の実験結果と考察}{10}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {第6章}おわりに}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}まとめ}{11}{section.6.1}
-\contentsline {section}{\numberline {6.2}今後の課題}{11}{section.6.2}
+\contentsline {section}{\numberline {2.2}自動交渉における心理的効果に関する研究}{2}{section.2.2}
+\contentsline {chapter}{\numberline {第3章}問題設定}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}複数論点交渉問題}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}繰り返し交渉問題}{5}{section.3.2}
+\contentsline {chapter}{\numberline {第4章}心理的効果を用いた人間とエージェントの繰り返し交渉戦略}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}段階的要請法(Foot-in-the-Door technique)}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}譲歩的要請法(Door-in-the-Face technique)}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}段階的要請法と譲歩的要請法を組み合わせた交渉戦略の提案}{7}{section.4.3}
+\contentsline {chapter}{\numberline {第5章}予備実験}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}目的と概要}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}実験設定}{10}{section.5.2}
+\contentsline {section}{\numberline {5.3}実験結果と考察}{12}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}パラメータ\alpha の実験結果と考察}{15}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}パラメータ\beta の実験結果と考察}{20}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {第6章}評価実験}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}実験設定}{24}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}実験で使用したドメイン}{24}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}パラメータ設定}{24}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}実験結果と考察}{24}{section.6.2}
+\contentsline {chapter}{\numberline {第7章}おわりに}{26}{chapter.7}
+\contentsline {section}{\numberline {7.1}まとめ}{26}{section.7.1}
+\contentsline {section}{\numberline {7.2}今後の課題}{26}{section.7.2}

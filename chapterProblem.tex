@@ -1,0 +1,64 @@
+\documentclass[a4paper, 10.5pt, twoside]{jreport}
+
+\include{begin}
+%ここから内容
+
+% Chapter 1
+\chapter{問題設定}\label{cha:1}
+
+\section{複数論点交渉問題}
+本研究では，交渉問題の中でも論点が複数存在する複数論点交渉問題を扱う．エージェント$A_1$と$A_2$が交渉を行う場合を考える．エージェント$a \in \{ A_1, A_2 \}$の目的関数$f$は,$a$の効用関数$U_{a}$と全ての合意案候補集合$S$を用いると式\ref{eq:objectFunc}と表すことができる．
+\begin{equation}
+  f = \argmax_{s \in S} U_{a}(s)
+  \label{eq:objectFunc}
+\end{equation}
+
+複数論点交渉問題の場合，目的関数$g$は式\ref{eq:socialSurplus}で表され，この目的関数の値は社会的余剰と呼ばれる．
+\begin{equation}
+  g = \argmax_{s \in S} \sum_{a \in \{ A_1, A_2 \}} U_{a}(s)
+  \label{eq:socialSurplus}
+\end{equation}
+
+一つの交渉問題はそれぞれドメインと呼ばれ，論点数$N$のドメインは固有の論点集合$I = \{ i_1, i_2, ..., i_N \}$を持つ．
+また，論点$i_k \in I$は選択肢集合$V_k = \{ v_{k1}, v_{k2}, ... ,v_{kn_k} \}$を持つ．ただし，論点$i_k$の選択肢数を$n_k$と定義する．
+
+各論点$i_k \in I$についてそれぞれ選択肢$v_k \in V_k$を一つずつ選んだものを合意案候補(Bid)と呼び，
+$s = (v_1, v_2, ..., v_N)$ として表現される．また，全ての合意案候補集合$S$は式\ref{eq:Bid}と表すことができる．
+\begin{equation}
+  S = \{ s = (v_1, v_2, ..., v_N) \, | \, v_k \in V_k , 1 \leqq k \geqq N \}
+  \label{eq:Bid}
+\end{equation}
+
+エージェントは各論点$i_k$について重み$w_k$$(\sum_{k = 1}^N w_k = 1)$および選択肢の評価値$eval(v_k \in V_k)$を持つ．
+ただし，$eval(v_k \in V_k)$は最大値が1となるように正規化されているものとする．このとき，エージェントの効用関数$U$は式\ref{eq:Utility}となる．
+\begin{equation}
+  U(s) = \sum_{k = 1}^N w_k \cdot eval(v_k)
+  \label{eq:Utility}
+\end{equation}
+また，各エージェントに対し留保価格(reservation value) 設定される場合がある．
+留保価格は合意形成に失敗した際にエージェントが獲得できる効用値である．
+
+\section{繰り返し交渉問題}
+本研究では，繰り返し交渉問題を扱う．繰り返し交渉問題は，交渉問題の中でエージェント$A_1$と$A_2$が複数回交渉を行うものを指す．
+本研究では，繰り返し交渉問題の中でも特に，以下の2つの関係を満たす交渉問題について取り扱う．
+\begin{enumerate}
+  \item 各交渉において各論点における各選択肢の一番高い値をエージェント$A_1$が選択した場合の効用$U_1$と$A_2$が選択した場合の効用$U_2$は等しい
+  \item $1,2, \cdots n$回目の交渉において$U_1$および$U_2$の値は不変である
+\end{enumerate}
+エージェント$a = \{ A_1, A_2 \}$にとっての論点$i_k$についての選択肢の実際の価値を$val(v_{ak} \in V_{ak})$とすると,
+各交渉におけるエージェント$A_1$と$A_2$の効用値の関係は式\ref{eq:bothUtility}となる．
+\begin{equation}
+  \sum_{k = 1}^N w_{A_1k} \cdot val(v_{A_1k}) = \sum_{k = 1}^N w_{A_2k} \cdot val(v_{A_2k})
+  \label{eq:bothUtility}
+\end{equation}
+
+また，$n$回目の交渉におけるエージェント$a = \{ A_1, A_2 \}$にとっての論点$i_k$についての重みを$w_{A_1k}^n$選択肢の実際の価値を$val(v_{ak}^n \in V_{ak}^n)$とすると，$1,2, \cdots ,n$回目の交渉における効用値の関係は式\ref{eq:repeatedUtility}となる．
+\begin{equation}
+  \sum_{k = 1}^N w_{ak}^1 \cdot val(v_{ak}^1) = \sum_{k = 1}^N w_{ak}^2 \cdot val(v_{ak}^2) = \cdots = \sum_{k = 1}^N w_{ak}^n \cdot val(v_{ak}^n)
+  \label{eq:repeatedUtility}
+\end{equation}
+
+
+%内容ここまで
+
+\include{end}

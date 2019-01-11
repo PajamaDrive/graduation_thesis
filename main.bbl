@@ -4,13 +4,24 @@
 Johnathan Mell and Jonathan Gratch.
 \newblock {IAGO: Interactive Arbitration Guide Online (Demonstration)}.
 \newblock In {\em Proceedings of the 2016 International Conference on
-  Autonomous Agents & Multiagent Systems}, Singapore, 9-13 May 2016.
+  Autonomous Agents \& Multiagent Systems}, Singapore, 9-13 May 2016.
 
 \bibitem{pinocchio}
 Johnathan Mell and Jonathan Gratch.
-\newblock {Grumpy & Pinocchio: Answering Human-Agent Negotia-tion Questions
+\newblock {Grumpy \& Pinocchio: Answering Human-Agent Negotia-tion Questions
   through Realistic Agent Design}.
 \newblock In {\em Proceedings of the 16th Conference on Autonomous Agents and
   MultiAgent Systems}, São Paulo, Brazil, 8-12 May 2017.
+
+\bibitem{concession}
+A.~F. Stuhlmacher, T.~L. Gillespie, and M.~V. Champagne.
+\newblock {The Impact of Time Pressure in Negotiation:A Meta-Analysis}.
+\newblock In {\em The International Journal of Conflict Management}, Vol.~9,
+  pp. 97--116, 1998.
+
+\bibitem{nego_principle}
+Harold~H. Kelley.
+\newblock {A classroom study of the dilemmas in interpersonal negotiations}.
+\newblock In {\em Strategic interaction and conflict}, pp. 49--73, 1966.
 
 \end{thebibliography}

@@ -7,17 +7,38 @@
 % Chapter 5
 \chapter{評価実験}\label{cha:5}
 
+\section{目的と概要}
+提案手法の有用性を示すことを目的として人間とエージェントで交渉を行う．
+被験者は提案手法の戦略を適用した8つのエージェントにベースラインであるNotNotエージェントを加えた計9種類のエージェント全てと交渉を行う.
+本実験では,提案手法の戦略を適用したエージェントの個人効用が高いほど良い戦略であると評価する.
+
 \section{実験設定}
+評価実験で用いるドメインは予備実験で用いたドメイン(表\ref{tab:pre_domain})と同一のものである．
 
-\subsection{実験で使用したドメイン}
-
-\subsection{パラメータ設定}
 
 \section{実験結果と考察}
+エージェントと被験者の個人効用の差分とその分散,エージェントと被験者の社会的余剰の平均とその分散,エージェントの交渉決裂率の平均とその分散をそれぞれ図\ref{fig:pre_util},図\ref{fig:pre_social},図\ref{fig:pre_broken}に示す.
 
-\subsection{パラメータ\alpha の実験結果と考察}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12truecm]{image/result_utility_diff.eps}
+  \caption{エージェントと被験者の得られた効用の差分}
+  \label{fig:res_util_diff}
+\end{figure}
 
-\subsection{パラメータ\beta の実験結果と考察}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12truecm]{image/result_social_surplus.eps}
+  \caption{エージェントと被験者の社会的余剰}
+  \label{fig:res_social}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12truecm]{image/result_broken_rate.eps}
+  \caption{エージェントの交渉決裂率}
+  \label{fig:res_broken}
+\end{figure}
 
 %内容ここまで
 
