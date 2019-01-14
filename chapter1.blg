@@ -1,0 +1,52 @@
+This is upBibTeX, Version 0.99d-j0.33-u1.22 (utf8.uptex) (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: chapter1.aux
+A level-1 auxiliary file: end.aux
+The style file: plain.bst
+Database file #1: reference.bib
+Warning--can't use both volume and number fields in anac2010-2015
+Warning--can't use both volume and number fields in genius
+Warning--can't use both volume and number fields in graduate
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            601 strings with 7550 characters,
+and the built_in function-call counts, 7578 in all, are:
+= -- 717
+> -- 387
+< -- 19
++ -- 152
+- -- 136
+* -- 523
+:= -- 1137
+add.period$ -- 48
+call.type$ -- 16
+change.case$ -- 115
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 313
+empty$ -- 578
+format.name$ -- 136
+if$ -- 1700
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 83
+num.names$ -- 32
+pop$ -- 160
+preamble$ -- 1
+purify$ -- 100
+quote$ -- 0
+skip$ -- 267
+stack$ -- 0
+substring$ -- 420
+swap$ -- 143
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 3
+while$ -- 58
+width$ -- 18
+write$ -- 186
+is.kanji.str$ -- 0
+(There were 3 warnings)

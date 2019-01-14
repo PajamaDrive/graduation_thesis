@@ -8,7 +8,7 @@
 \chapter{心理的効果を用いた人間とエージェントの繰り返し交渉戦略}\label{cha:3}
 
 \section{段階的要請法(Foot-in-the-Door technique)}
-段階的要請法は交渉の際に用いられる心理的手法である.
+段階的要請法は交渉の際に用いられる心理的手法である\cite{asakura,foot-in-the-door}.
 段階的要請法の概要を図\ref{fig:foot}に示す.
 段階的要請法では,最初に相手に対して小さい要求を行い,徐々に要求を上げていく手法である.
 この手法は自分の行動を一貫したものにしたいという人間の一貫性の原理を利用した交渉術である.
@@ -17,16 +17,15 @@
 次にこの要求を承諾した買い手に対して商品を購入してもらうという大きな要求を行なっている.
 このように,段階的要請法では事前に小さな要求を相手に承諾させることで真の要求を相手に拒否させづらくさせることが可能である.
 
-\begin{figure}[h]
+\begin{figure}[htb]
   \centering
-  \includegraphics[width=10truecm]{image/foot.eps}
+  \includegraphics[width=9truecm]{image/foot.eps}
   \caption{段階的要請法の概要}
   \label{fig:foot}
 \end{figure}
 
 \section{譲歩的要請法(Door-in-the-Face technique)}
-
-譲歩的要請法は交渉の際に用いられる心理的手法である.
+譲歩的要請法は交渉の際に用いられる心理的手法である\cite{asakura,door-in-the-face}.
 譲歩的要請法の概要を図\ref{fig:door}に示す.
 譲歩的要請法では,段階的要請法とは対照的に最初に相手に対して大きい要求を行い,徐々に要求を下げていく手法である.
 この手法は相手が譲歩してきたため自分も譲歩した方が良いという人間の返報性の原理を利用した交渉術である.
@@ -35,9 +34,9 @@
 次にこの要求を拒否した買い手に対して商品を値下げし2万円で商品を買ってもらうという小さな要求を行なっている.
 このように,譲歩的要請法では事前に大きな要求を行い,相手に要求を拒否させることで真の要求を相手に拒否させづらくさせることが可能である.
 
-\begin{figure}[h]
+\begin{figure}[htb]
   \centering
-  \includegraphics[width=10truecm]{image/door.eps}
+  \includegraphics[width=9truecm]{image/door.eps}
   \caption{譲歩的要請法の概要}
   \label{fig:door}
 \end{figure}
@@ -46,24 +45,25 @@
 
 本稿では,先述した段階的要請法と譲歩的要請法を組み合わせることで繰り返し交渉に対応した戦略を提案する.
 提案手法の概要を図\ref{fig:propose}に示す.
-以下,1回目の交渉開始時に相手の提案を受諾する水準を\mathrm{L},交渉の時間経過に伴って水準\mathrm{L}に加算する値を\mathrm{\alpha},交渉回数の増加に伴って水準\mathrm{L}に加算する値を\mathrm{\beta}と定義する.
+以下,1回目の交渉開始時に相手の提案を受諾する水準(以降,受諾水準と略記)を\mathrm{L},交渉の時間経過に伴って水準\mathrm{L}に加算する値を\mathrm{\alpha},交渉回数の増加に伴って水準\mathrm{L}に加算する値を\mathrm{\beta}と定義する.
 なお\mathrm{L}は相手から送信された提案における相手の推定効用の値である.
-提案手法では相手の提案を受諾する水準を変化させる.1回の交渉ごとでは,時間経過に伴って水準を変化させる.
-すなわち,図\ref{fig:propose}のように交渉開始時の水準が\mathrm{L}であった場合,時間経過によって水準を\mathrm{L\pm \alpha}に変化させる.以下,\mathrm{\alpha}を内側のパラメータ,\mathrm{\alpha}を使用する戦略を内側の戦略と記述する.
-また,同時に交渉回数の増加に伴って水準を変化させる.
-すなわち,図\ref{fig:propose}のように交渉開始時の水準が\mathrm{L}であった場合,2回目の交渉開始時の水準を\mathrm{L\pm \beta}に変化させる.以下,\mathrm{\beta}を外側のパラメータ,\mathrm{\beta}を使用する戦略を外側の戦略と記述する.
+提案手法では受諾水準を変化させる.1回の交渉ごとでは,時間経過に伴って受諾水準を変化させる.
+すなわち,図\ref{fig:propose}のように交渉開始時の受諾水準が\mathrm{L}であった場合,一定時間経過後受諾水準を\mathrm{L\pm \alpha},さらに一定時間経過後受諾水準を\mathrm{L\pm 2\alpha}と変化させる.以下,\mathrm{\alpha}を内側のパラメータ,\mathrm{\alpha}を使用する戦略を内側の戦略と記述する.
+また,同時に交渉回数の増加に伴って受諾水準を変化させる.
+すなわち,図\ref{fig:propose}のように交渉開始時の受諾水準が\mathrm{L}であった場合,2回目の交渉開始時の受諾水準を\mathrm{L\pm \beta},3回目の交渉開始時の受諾水準を\mathrm{L\pm 2\beta}と変化させる.以下,\mathrm{\beta}を外側のパラメータ,\mathrm{\beta}を使用する戦略を外側の戦略と記述する.
 
-\begin{figure}[h]
+\begin{figure}[htb]
   \centering
-  \includegraphics[width=15truecm]{image/propose.eps}
+  \includegraphics[width=14truecm]{image/propose.eps}
   \caption{提案手法の概要}
   \label{fig:propose}
 \end{figure}
 
-提案手法では,これら2種類の水準の変化を組み合わせることで,繰り返し交渉に対応する.
-水準の変化にそれぞれ段階的要請法,譲歩的要請法,水準を変化させない方法の3種類を適用した9種類の戦略を提案する.
+提案手法では,これら2種類の受諾水準の変化を組み合わせることで,繰り返し交渉に対応する.
+受諾水準の変化にそれぞれ段階的要請法,譲歩的要請法,水準を変化させない方法の3種類を適用した9種類の戦略を提案する.
 戦略の組み合わせと対応する戦略名を表\ref{tab:strategy}に示す.
-表\ref{tab:strategy}の9種の戦略の内,内側および外側の戦略がどちらも変化しないNotNotはベースラインとして使用し,NotNotを除外した8種類の戦略を提案手法とし,第4章の予備実験および第5章の評価実験を行う.
+表\ref{tab:strategy}の9種の戦略の内,内側および外側の戦略がどちらも変化しないNotNotはベースラインとして使用し,
+NotNotを除外した8種類の戦略を提案手法とし,これらの戦略をIAGOのサンプルエージェントであるPinocchioエージェントに適応させたエージェントを用いて第4章の予備実験および第5章の評価実験を行う.
 
 \begin{table}[htb]
   \begin{center}

@@ -1,30 +1,31 @@
 \contentsline {chapter}{\numberline {第1章}はじめに}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}背景}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}本研究の目的}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}本論文の構成}{1}{section.1.3}
-\contentsline {chapter}{\numberline {第2章}関連研究}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}自動交渉エージェント競技会(ANAC)}{2}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}ANAC}{2}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}IAGO}{2}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}自動交渉における心理的効果に関する研究}{2}{section.2.2}
-\contentsline {chapter}{\numberline {第3章}問題設定}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}複数論点交渉問題}{4}{section.3.1}
-\contentsline {section}{\numberline {3.2}繰り返し交渉問題}{5}{section.3.2}
-\contentsline {chapter}{\numberline {第4章}心理的効果を用いた人間とエージェントの繰り返し交渉戦略}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}段階的要請法(Foot-in-the-Door technique)}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}譲歩的要請法(Door-in-the-Face technique)}{7}{section.4.2}
-\contentsline {section}{\numberline {4.3}段階的要請法と譲歩的要請法を組み合わせた交渉戦略の提案}{7}{section.4.3}
-\contentsline {chapter}{\numberline {第5章}予備実験}{10}{chapter.5}
-\contentsline {section}{\numberline {5.1}目的と概要}{10}{section.5.1}
-\contentsline {section}{\numberline {5.2}実験設定}{10}{section.5.2}
-\contentsline {section}{\numberline {5.3}実験結果と考察}{12}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}パラメータ\alpha の実験結果と考察}{15}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}パラメータ\beta の実験結果と考察}{20}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {第6章}評価実験}{24}{chapter.6}
-\contentsline {section}{\numberline {6.1}実験設定}{24}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}実験で使用したドメイン}{24}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}パラメータ設定}{24}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}実験結果と考察}{24}{section.6.2}
-\contentsline {chapter}{\numberline {第7章}おわりに}{26}{chapter.7}
-\contentsline {section}{\numberline {7.1}まとめ}{26}{section.7.1}
-\contentsline {section}{\numberline {7.2}今後の課題}{26}{section.7.2}
+\contentsline {section}{\numberline {1.2}本研究の目的}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}本論文の構成}{3}{section.1.3}
+\contentsline {chapter}{\numberline {第2章}関連研究}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}自動交渉エージェント競技会(ANAC)}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}ANAC}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}IAGO}{5}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}自動交渉における心理的効果に関する研究}{6}{section.2.2}
+\contentsline {chapter}{\numberline {第3章}問題設定}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}複数論点交渉問題}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}繰り返し交渉問題}{8}{section.3.2}
+\contentsline {chapter}{\numberline {第4章}心理的効果を用いた人間とエージェントの繰り返し交渉戦略}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}段階的要請法(Foot-in-the-Door technique)}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}譲歩的要請法(Door-in-the-Face technique)}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}段階的要請法と譲歩的要請法を組み合わせた交渉戦略の提案}{10}{section.4.3}
+\contentsline {chapter}{\numberline {第5章}予備実験}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}目的と概要}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}実験設定}{13}{section.5.2}
+\contentsline {section}{\numberline {5.3}実験結果と考察}{15}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}パラメータ\alpha の実験結果と考察}{18}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}パラメータ\beta の実験結果と考察}{23}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}実験のまとめ}{27}{section.5.4}
+\contentsline {chapter}{\numberline {第6章}評価実験}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}目的と概要}{28}{section.6.1}
+\contentsline {section}{\numberline {6.2}実験設定}{28}{section.6.2}
+\contentsline {section}{\numberline {6.3}実験結果と考察}{29}{section.6.3}
+\contentsline {section}{\numberline {6.4}実験のまとめ}{33}{section.6.4}
+\contentsline {chapter}{\numberline {第7章}おわりに}{34}{chapter.7}
+\contentsline {section}{\numberline {7.1}まとめ}{34}{section.7.1}
+\contentsline {section}{\numberline {7.2}今後の課題}{34}{section.7.2}

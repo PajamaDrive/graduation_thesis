@@ -1,27 +1,153 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{graduate}
+R.~S. Rubin and E.~C. Dierdor ff.
+\newblock {How Relevant Is the MBA? Assessing the Alignment of Required
+  Curricula and Required Managerial Competencies}.
+\newblock In {\em Academy of Management Learning \& Education}, Vol.~8, pp.
+  208--224, 2009.
+
+\bibitem{nego_principle}
+Harold~H. Kelley.
+\newblock {A classroom study of the dilemmas in interpersonal negotiations}.
+\newblock In {\em Strategic interaction and conflict}, pp. 49--73, 1966.
+
+\bibitem{visualize}
+Emmanuel Johnson, Jonathan Gratch, and David Devault.
+\newblock {Towards An Autonomous Agent that Provides Automated Feedback on
+  Students’ Negotiation Skills}.
+\newblock In {\em Proceedings of the 16th Conference on Autonomous Agents and
+  MultiAgent Systems}, pp. 410--418, São Paulo, 8-12 May 2017.
+
+\bibitem{vr}
+J.~Broekens, M.~Harbers, W.-P. Brinkman, C.~M. Jonker, K.~Van den Bosch, and
+  J.-J. Meyer.
+\newblock {Virtual Reality Negotiation Training Increases Negotiation Knowledge
+  and Skill}.
+\newblock In {\em 12th International Conference on Intelligent Virtual Agents},
+  pp. 218--230, 2012.
+
+\bibitem{behavior}
+G.~Van Kleef, C.~De Dreu, and A.~Manstead.
+\newblock {An Interpersonal Approach to Emotion in Social Decision Making:The
+  Emotions as Social Information Model}.
+\newblock In {\em Advances in Experimental Social Psychology}, Vol.~42, pp.
+  45--96, 2010.
+
+\bibitem{angryhappy}
+G.~Van Kleef, C.~De Dreu, and A.~Manstead.
+\newblock {The interpersonal effects of anger and happiness in negotiations}.
+\newblock In {\em Journal of Personality and Social Psychology}, Vol.~86, pp.
+  57--76, 2004.
+
+\bibitem{emotion}
+Celso~M. de~Melo, Peter Carnevale, and Jonathan Gratch.
+\newblock {The Effect of Expression of Anger and Happiness in Computer Agents
+  on Negotiations with Humans}.
+\newblock In {\em The 10th International Conference on Autonomous Agents and
+  Multiagent Systems}, Vol.~3, pp. 937--944, Taipei, Taiwan, 2-6 May 2011.
+
+\bibitem{genius}
+Raz Lin, Sarit Kraus, Tim Baarslag, Dmytro Tykhonov, Koen Hindriks, and
+  Catholijn~M. Jonker.
+\newblock {Genius: an Integrated Environment for Supporting the Design of
+  Generic Automated Negotiators}.
+\newblock In {\em Computational Intelligence}, Vol.~30, pp. 48--70, 2014.
+
+\bibitem{ct}
+Y.~A. Gal, B.~J. Grosz, S.~Kraus, A.~Pfeffer, and S.~Shieber.
+\newblock {Colored Trails: A Formalism for Investigating Decision-making in
+  Strategic Environments}.
+\newblock In {\em Proceedings of the 2005 IJCAI Workshop on Reasoning,
+  Representation, and Learning in Computer Games}, pp. 25--30, 2005.
+
+\bibitem{webct}
+Johnathan Mell, Gale Lucas, and Jonathan Gratch.
+\newblock {An Effective Conversation Tactic for Creating Value over Repeated
+  Negotiations}.
+\newblock In {\em Proceedings of the 2015 International Conference on
+  Autonomous Agents and Multiagent Systems}, pp. 1567--1576, Istanbul, 4-8 May
+  2015.
+
+\bibitem{negochat}
+Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, and Sarit Kraus.
+\newblock {NegoChat: a chat-based negotiation agent}.
+\newblock In {\em Proceedings of the 2014 international conference on
+  Autonomous agents and multi-agent systems}, pp. 525--532, Paris, 5-9 May
+  2014.
 
 \bibitem{iago}
 Johnathan Mell and Jonathan Gratch.
 \newblock {IAGO: Interactive Arbitration Guide Online (Demonstration)}.
 \newblock In {\em Proceedings of the 2016 International Conference on
-  Autonomous Agents \& Multiagent Systems}, Singapore, 9-13 May 2016.
+  Autonomous Agents \& Multiagent Systems}, pp. 1510--1512, Singapore, 9-13 May
+  2016.
+
+\bibitem{anac2010-2015}
+Tim Baarslag, Reyhan Aydogan, Koen~V. Hindriks, Katsuhide Fujita, Takayuki Ito,
+  and Catholijn~M. Jonker.
+\newblock {\em {The Automated Negotiating Agents Competition, 2010-2015}},
+  Vol.~36, pp. 115--118.
+\newblock AI Magazine, 2015.
+
+\bibitem{anac2016}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Koen Hindriks, Takayuki Ito,
+  and Catholijn Jonker.
+\newblock {The Seventh International Automated Negotiating Agents
+  Competition(ANAC2016)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2016/}, 2016.
+
+\bibitem{anac2017}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Takayuki Ito, Dave de~Jonge,
+  Catholijn Jonker, and Johnathan Mell.
+\newblock {The Eighth International Automated Negotiating Agents
+  Competition(ANAC2017)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2017/}, 2017.
+
+\bibitem{anac2018}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Takayuki Ito, Dave de~Jonge,
+  Catholijn Jonker, and Johnathan Mell.
+\newblock {The Ninth International Automated Negotiating Agents
+  Competition(ANAC2018)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2018/}, 2018.
 
 \bibitem{pinocchio}
 Johnathan Mell and Jonathan Gratch.
 \newblock {Grumpy \& Pinocchio: Answering Human-Agent Negotia-tion Questions
   through Realistic Agent Design}.
 \newblock In {\em Proceedings of the 16th Conference on Autonomous Agents and
-  MultiAgent Systems}, São Paulo, Brazil, 8-12 May 2017.
+  MultiAgent Systems}, pp. 401--409, São Paulo, 8-12 May 2017.
+
+\bibitem{aop}
+Ariel Rubinstein.
+\newblock {A Bargaining Model with Incomplete Information About Time
+  Preferences}.
+\newblock In {\em Econometrica}, Vol.~53, pp. 1151--1172, 1985.
+
+\bibitem{asakura}
+唐沢かおり編.
+\newblock {朝倉心理学講座7社会心理学}, pp. 126--134.
+\newblock 朝倉書店, 2005.
+\newblock 海保博之監修.
+
+\bibitem{foot-in-the-door}
+Jonathan~L. Freedman and Scott~C. Fraser.
+\newblock {Compliance without Pressure:The Foot-in-the-Door Technique}.
+\newblock In {\em Journal of Personality and Social Psychology}, Vol.~4, pp.
+  195--202, 1966.
+
+\bibitem{door-in-the-face}
+Robert~B. Cialdini, Joyce~E. Vincent, Stephen~K. Lewis, Jose Catalan, Diane
+  Wheeler, and Betty~Lee Darby.
+\newblock {Reciprocal Concessions Procedure for Inducing Compliance:The
+  Door-in-the-Face Technique}.
+\newblock In {\em Journal of Personality and Social Psychology}, Vol.~31, pp.
+  206--215, 1975.
 
 \bibitem{concession}
 A.~F. Stuhlmacher, T.~L. Gillespie, and M.~V. Champagne.
 \newblock {The Impact of Time Pressure in Negotiation:A Meta-Analysis}.
 \newblock In {\em The International Journal of Conflict Management}, Vol.~9,
   pp. 97--116, 1998.
-
-\bibitem{nego_principle}
-Harold~H. Kelley.
-\newblock {A classroom study of the dilemmas in interpersonal negotiations}.
-\newblock In {\em Strategic interaction and conflict}, pp. 49--73, 1966.
 
 \end{thebibliography}

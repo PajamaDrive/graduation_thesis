@@ -2,51 +2,57 @@ This is upBibTeX, Version 0.99d-j0.33-u1.22 (utf8.uptex) (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: junsrt.bst
-Illegal, another \bibstyle command---line 141 of file main.aux
+Illegal, another \bibstyle command---line 174 of file main.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
 Database file #1: reference.bib
-You've used 4 entries,
+Warning--can't use both volume and number fields in graduate
+Warning--can't use both volume and number fields in genius
+Warning--can't use both volume and number fields in anac2010-2015
+Warning--can't use both volume and number fields in aop
+Warning--can't use both volume and number fields in foot-in-the-door
+Warning--can't use both volume and number fields in door-in-the-face
+You've used 22 entries,
             2270 wiz_defined-function locations,
-            564 strings with 4831 characters,
-and the built_in function-call counts, 1237 in all, are:
-= -- 90
-> -- 28
-< -- 3
-+ -- 12
-- -- 8
-* -- 52
-:= -- 151
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 4
+            675 strings with 8487 characters,
+and the built_in function-call counts, 8918 in all, are:
+= -- 697
+> -- 271
+< -- 29
++ -- 105
+- -- 83
+* -- 450
+:= -- 1033
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 90
-empty$ -- 142
-format.name$ -- 16
-if$ -- 316
+cite$ -- 28
+duplicate$ -- 557
+empty$ -- 883
+format.name$ -- 166
+if$ -- 2286
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 23
-num.names$ -- 4
-pop$ -- 37
+int.to.str$ -- 22
+missing$ -- 21
+newline$ -- 114
+num.names$ -- 22
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 469
 stack$ -- 0
-substring$ -- 43
-swap$ -- 21
-text.length$ -- 3
+substring$ -- 511
+swap$ -- 213
+text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 8
-width$ -- 5
-write$ -- 47
-is.kanji.str$ -- 44
+warning$ -- 6
+while$ -- 60
+width$ -- 24
+write$ -- 259
+is.kanji.str$ -- 280
 (There was 1 error message)

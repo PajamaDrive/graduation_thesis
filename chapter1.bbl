@@ -1,0 +1,114 @@
+\begin{thebibliography}{10}
+
+\bibitem{anac2016}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Koen Hindriks, Takayuki Ito,
+  and Catholijn Jonker.
+\newblock {The Seventh International Automated Negotiating Agents
+  Competition(ANAC2016)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2016/}, 2016.
+
+\bibitem{anac2017}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Takayuki Ito, Dave de~Jonge,
+  Catholijn Jonker, and Johnathan Mell.
+\newblock {The Eighth International Automated Negotiating Agents
+  Competition(ANAC2017)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2017/}, 2017.
+
+\bibitem{anac2018}
+Reyhan Aydogan, Tim Baarslag, Katsuhide Fujita, Takayuki Ito, Dave de~Jonge,
+  Catholijn Jonker, and Johnathan Mell.
+\newblock {The Ninth International Automated Negotiating Agents
+  Competition(ANAC2018)}.
+\newblock \url{http://web.tuat.ac.jp/~katfuji/ANAC2018/}, 2018.
+
+\bibitem{anac2010-2015}
+Tim Baarslag, Reyhan Aydogan, Koen~V. Hindriks, Katsuhide Fujita, Takayuki Ito,
+  and Catholijn~M. Jonker.
+\newblock {\em {The Automated Negotiating Agents Competition, 2010-2015}},
+  volume~36, pages 115--118.
+\newblock AI Magazine, 2015.
+
+\bibitem{vr}
+J.~Broekens, M.~Harbers, W.-P. Brinkman, C.~M. Jonker, K.~Van den Bosch, and
+  J.-J. Meyer.
+\newblock {Virtual Reality Negotiation Training Increases Negotiation Knowledge
+  and Skill}.
+\newblock In {\em 12th International Conference on Intelligent Virtual Agents},
+  pages 218--230, 2012.
+
+\bibitem{emotion}
+Celso~M. de~Melo, Peter Carnevale, and Jonathan Gratch.
+\newblock {The Effect of Expression of Anger and Happiness in Computer Agents
+  on Negotiations with Humans}.
+\newblock In {\em The 10th International Conference on Autonomous Agents and
+  Multiagent Systems}, volume~3, pages 937--944, Taipei, Taiwan, 2-6 May 2011.
+
+\bibitem{ct}
+Y.~A. Gal, B.~J. Grosz, S.~Kraus, A.~Pfeffer, and S.~Shieber.
+\newblock {Colored Trails: A Formalism for Investigating Decision-making in
+  Strategic Environments}.
+\newblock In {\em Proceedings of the 2005 IJCAI Workshop on Reasoning,
+  Representation, and Learning in Computer Games}, pages 25--30, 2005.
+
+\bibitem{visualize}
+Emmanuel Johnson, Jonathan Gratch, and David Devault.
+\newblock {Towards An Autonomous Agent that Provides Automated Feedback on
+  Students’ Negotiation Skills}.
+\newblock In {\em Proceedings of the 16th Conference on Autonomous Agents and
+  MultiAgent Systems}, pages 410--418, São Paulo, 8-12 May 2017.
+
+\bibitem{nego_principle}
+Harold~H. Kelley.
+\newblock {A classroom study of the dilemmas in interpersonal negotiations}.
+\newblock In {\em Strategic interaction and conflict}, pages 49--73, 1966.
+
+\bibitem{angryhappy}
+G.~Van Kleef, C.~De Dreu, and A.~Manstead.
+\newblock {The interpersonal effects of anger and happiness in negotiations}.
+\newblock In {\em Journal of Personality and Social Psychology}, volume~86,
+  pages 57--76, 2004.
+
+\bibitem{behavior}
+G.~Van Kleef, C.~De Dreu, and A.~Manstead.
+\newblock {An Interpersonal Approach to Emotion in Social Decision Making:The
+  Emotions as Social Information Model}.
+\newblock In {\em Advances in Experimental Social Psychology}, volume~42, pages
+  45--96, 2010.
+
+\bibitem{genius}
+Raz Lin, Sarit Kraus, Tim Baarslag, Dmytro Tykhonov, Koen Hindriks, and
+  Catholijn~M. Jonker.
+\newblock {Genius: an Integrated Environment for Supporting the Design of
+  Generic Automated Negotiators}.
+\newblock In {\em Computational Intelligence}, volume~30, pages 48--70, 2014.
+
+\bibitem{iago}
+Johnathan Mell and Jonathan Gratch.
+\newblock {IAGO: Interactive Arbitration Guide Online (Demonstration)}.
+\newblock In {\em Proceedings of the 2016 International Conference on
+  Autonomous Agents \& Multiagent Systems}, pages 1510--1512, Singapore, 9-13
+  May 2016.
+
+\bibitem{webct}
+Johnathan Mell, Gale Lucas, and Jonathan Gratch.
+\newblock {An Effective Conversation Tactic for Creating Value over Repeated
+  Negotiations}.
+\newblock In {\em Proceedings of the 2015 International Conference on
+  Autonomous Agents and Multiagent Systems}, pages 1567--1576, Istanbul, 4-8
+  May 2015.
+
+\bibitem{negochat}
+Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, and Sarit Kraus.
+\newblock {NegoChat: a chat-based negotiation agent}.
+\newblock In {\em Proceedings of the 2014 international conference on
+  Autonomous agents and multi-agent systems}, pages 525--532, Paris, 5-9 May
+  2014.
+
+\bibitem{graduate}
+R.~S. Rubin and E.~C. Dierdor ff.
+\newblock {How Relevant Is the MBA? Assessing the Alignment of Required
+  Curricula and Required Managerial Competencies}.
+\newblock In {\em Academy of Management Learning \& Education}, volume~8, pages
+  208--224, 2009.
+
+\end{thebibliography}

@@ -1,30 +1,32 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces IAGOのインタフェース\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces IAGOのインタフェース\relax }}{5}{figure.caption.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 段階的要請法の概要\relax }}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 譲歩的要請法の概要\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 提案手法の概要\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 段階的要請法の概要\relax }}{9}{figure.caption.5}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 譲歩的要請法の概要\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 提案手法の概要\relax }}{11}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 提案手法のエージェントの個人効用\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces エージェントの社会的余剰\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 提案手法のエージェントの交渉決裂率\relax }}{14}{figure.caption.15}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(1)\relax }}{15}{figure.caption.16}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(2)\relax }}{16}{figure.caption.17}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(3)\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(1)\relax }}{17}{figure.caption.19}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(2)\relax }}{17}{figure.caption.20}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(3)\relax }}{18}{figure.caption.21}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces $\alpha $の更新回数に対する個人効用\relax }}{19}{figure.caption.22}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(1)\relax }}{20}{figure.caption.23}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(2)\relax }}{20}{figure.caption.24}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(3)\relax }}{21}{figure.caption.25}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(1)\relax }}{21}{figure.caption.26}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(2)\relax }}{22}{figure.caption.27}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(3)\relax }}{22}{figure.caption.28}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 提案手法のエージェントの個人効用\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces エージェントの社会的余剰\relax }}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 提案手法のエージェントの交渉決裂率\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(1)\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(2)\relax }}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する個人効用(3)\relax }}{19}{figure.caption.18}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(1)\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(2)\relax }}{20}{figure.caption.20}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 提案手法のパラメータ$\alpha $における増分・初期値に対する交渉決裂率(3)\relax }}{21}{figure.caption.21}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces $\alpha $の更新回数に対する個人効用\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(1)\relax }}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(2)\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する個人効用(3)\relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(1)\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(2)\relax }}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 提案手法のパラメータ$\beta $における増分・初期値に対する交渉決裂率(3)\relax }}{26}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces エージェントと被験者の得られた効用の差分\relax }}{24}{figure.caption.29}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces エージェントと被験者の社会的余剰\relax }}{25}{figure.caption.30}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces エージェントの交渉決裂率\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces エージェントの個人効用\relax }}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 被験者の個人効用\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces エージェントと被験者の個人効用の差分\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces エージェントと被験者の社会的余剰\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces エージェントの交渉決裂率\relax }}{32}{figure.caption.34}
 \addvspace {10\p@ }
