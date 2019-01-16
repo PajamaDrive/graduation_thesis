@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.3.27)  15 JAN 2019 00:50
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.3.27)  17 JAN 2019 01:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,8 +435,8 @@ LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 6.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 6.
-File: image/my.eps Graphic file (type eps)
- <image/my.eps> [1
+File: image/my_prof.eps Graphic file (type eps)
+ <image/my_prof.eps> [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
@@ -599,27 +599,27 @@ LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/hgt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 12.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 
-./chapter2.tex:21: Text line contains an invalid character.
-l.21   ^^O
-          \item 様々な学習手法,適応戦略,交渉相手のモデル構築を探求する
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./chapter2.tex:22: Text line contains an invalid character.
-l.22   ^^O
-          \item 最先端の交渉エージェントと交渉シナリオを収集し,研究コミュニ...
+./chapter2.tex:23: Text line contains an invalid character.
+l.23   ^^O
+          \item 様々な学習手法，適応戦略，交渉相手のモデル構築を探求する
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 ./chapter2.tex:24: Text line contains an invalid character.
-l.24 ^^O
+l.24   ^^O
+          \item 最先端の交渉エージェントと交渉シナリオを収集し，研究コミュニ...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./chapter2.tex:26: Text line contains an invalid character.
+l.26 ^^O
         
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
@@ -629,6 +629,24 @@ File: image/IAGO.eps Graphic file (type eps)
 
 ] [5]) (./chapterProblem.tex [6]
 第 3 章
+./chapterProblem.tex:29: Undefined control sequence.
+l.29   S = \{ s = (v_1， v_2， \ldots， v_N) \，
+                                                 | \， v_k \in V_k ， 1 \leq...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapterProblem.tex:29: Undefined control sequence.
+l.29 ...{ s = (v_1， v_2， \ldots， v_N) \， | \，
+                                                   v_k \in V_k ， 1 \leqq k ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 [7
 
 ]) (./chapter3.tex [8]
@@ -646,8 +664,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...受諾する水準(以降,受諾水準と略記)を\mathrm
-                                                  {L},交渉の時間経過に伴って...
+l.48 ...諾する水準(以降，受諾水準と略記)を\mathrm
+                                                 {L}，交渉の時間経過に伴って水
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -658,7 +676,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...athrm{L},交渉の時間経過に伴って水準\mathrm
+l.48 ...thrm{L}，交渉の時間経過に伴って水準\mathrm
                                                   {L}に加算する値を\mathrm{\...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -671,7 +689,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.48 ...伴って水準\mathrm{L}に加算する値を\mathrm
-                                                 {\alpha},交渉回数の増加に伴っ
+                                                 {\alpha}，交渉回数の増加に伴っ
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -679,23 +697,23 @@ If that doesn't work, type  X <return>  to quit.
 <inserted text> 
                 $
 l.48 ...水準\mathrm{L}に加算する値を\mathrm{\alpha
-                                                  },交渉回数の増加に伴って水...
+                                                  }，交渉回数の増加に伴って...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./chapter3.tex:48: Extra }, or forgotten $.
 l.48 ...準\mathrm{L}に加算する値を\mathrm{\alpha}
-                                                 ,交渉回数の増加に伴って水準\ma
+                                                 ，交渉回数の増加に伴って水準\m
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter3.tex:54: Missing $ inserted.
+./chapter3.tex:58: Missing $ inserted.
 <inserted text> 
                 $
-l.54 
+l.58 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -703,18 +721,18 @@ you left one out. Proceed, with fingers crossed.
 [10]
 File: image/propose.eps Graphic file (type eps)
  <image/propose.eps>
-./chapter3.tex:73: Missing $ inserted.
+./chapter3.tex:77: Missing $ inserted.
 <inserted text> 
                 $
-l.73 ... 戦略名 & 内側の戦略 & 外側の戦略 & \alpha
+l.77 ... 戦略名 & 内側の戦略 & 外側の戦略 & \alpha
                                                    の値 & \beta の値 \\ \hli...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter3.tex:73: Extra }, or forgotten $.
+./chapter3.tex:77: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.73 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
+l.77 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
                                                    \beta の値 \\ \hline \hline
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -722,18 +740,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter3.tex:73: Missing $ inserted.
+./chapter3.tex:77: Missing $ inserted.
 <inserted text> 
                 $
-l.73 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
+l.77 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
                                                    \beta の値 \\ \hline \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter3.tex:73: Missing } inserted.
+./chapter3.tex:77: Missing } inserted.
 <inserted text> 
                 }
-l.73 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
+l.77 ... & 内側の戦略 & 外側の戦略 & \alpha の値 &
                                                    \beta の値 \\ \hline \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -741,18 +759,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter3.tex:73: Missing $ inserted.
+./chapter3.tex:77: Missing $ inserted.
 <inserted text> 
                 $
-l.73 ...の戦略 & 外側の戦略 & \alpha の値 & \beta
+l.77 ...の戦略 & 外側の戦略 & \alpha の値 & \beta
                                                   の値 \\ \hline \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter3.tex:73: Extra }, or forgotten $.
+./chapter3.tex:77: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.73 ...戦略 & \alpha の値 & \beta の値 \\ \hline
+l.77 ...戦略 & \alpha の値 & \beta の値 \\ \hline
                                                   \hline
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -760,18 +778,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter3.tex:73: Missing $ inserted.
+./chapter3.tex:77: Missing $ inserted.
 <inserted text> 
                 $
-l.73 ...戦略 & \alpha の値 & \beta の値 \\ \hline
+l.77 ...戦略 & \alpha の値 & \beta の値 \\ \hline
                                                   \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter3.tex:73: Missing } inserted.
+./chapter3.tex:77: Missing } inserted.
 <inserted text> 
                 }
-l.73 ...戦略 & \alpha の値 & \beta の値 \\ \hline
+l.77 ...戦略 & \alpha の値 & \beta の値 \\ \hline
                                                   \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -781,18 +799,18 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapter4.tex [11] [12]
 第 5 章
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36       & \alpha
+l.34       & \alpha
                     の初期値 & \alpha の増分 & \beta の初期値 & \beta の増分...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Extra }, or forgotten $.
+./chapter4.tex:34: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.36       & \alpha の初期値 &
+l.34       & \alpha の初期値 &
                                \alpha の増分 & \beta の初期値 & \beta の増分...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -800,18 +818,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36       & \alpha の初期値 &
+l.34       & \alpha の初期値 &
                                \alpha の増分 & \beta の初期値 & \beta の増分...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Missing } inserted.
+./chapter4.tex:34: Missing } inserted.
 <inserted text> 
                 }
-l.36       & \alpha の初期値 &
+l.34       & \alpha の初期値 &
                                \alpha の増分 & \beta の初期値 & \beta の増分...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -819,18 +837,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36       & \alpha の初期値 & \alpha
+l.34       & \alpha の初期値 & \alpha
                                       の増分 & \beta の初期値 & \beta の増分...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Extra }, or forgotten $.
+./chapter4.tex:34: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.36       & \alpha の初期値 & \alpha の増分 &
+l.34       & \alpha の初期値 & \alpha の増分 &
                                                \beta の初期値 & \beta の増分...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -838,18 +856,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36       & \alpha の初期値 & \alpha の増分 &
+l.34       & \alpha の初期値 & \alpha の増分 &
                                                \beta の初期値 & \beta の増分...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Missing } inserted.
+./chapter4.tex:34: Missing } inserted.
 <inserted text> 
                 }
-l.36       & \alpha の初期値 & \alpha の増分 &
+l.34       & \alpha の初期値 & \alpha の増分 &
                                                \beta の初期値 & \beta の増分...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -857,18 +875,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ... & \alpha の初期値 & \alpha の増分 & \beta
+l.34 ... & \alpha の初期値 & \alpha の増分 & \beta
                                                    の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Extra }, or forgotten $.
+./chapter4.tex:34: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.36 ...初期値 & \alpha の増分 & \beta の初期値 &
+l.34 ...初期値 & \alpha の増分 & \beta の初期値 &
                                                   \beta の増分 & \alpha の更新
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -876,18 +894,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ...初期値 & \alpha の増分 & \beta の初期値 &
+l.34 ...初期値 & \alpha の増分 & \beta の初期値 &
                                                   \beta の増分 & \alpha の更新
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Missing } inserted.
+./chapter4.tex:34: Missing } inserted.
 <inserted text> 
                 }
-l.36 ...初期値 & \alpha の増分 & \beta の初期値 &
+l.34 ...初期値 & \alpha の増分 & \beta の初期値 &
                                                   \beta の増分 & \alpha の更新
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -895,18 +913,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ... & \alpha の増分 & \beta の初期値 & \beta
+l.34 ... & \alpha の増分 & \beta の初期値 & \beta
                                                   の増分 & \alpha の更新回数 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Extra }, or forgotten $.
+./chapter4.tex:34: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.36 ...a の増分 & \beta の初期値 & \beta の増分 &
+l.34 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -914,18 +932,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ...a の増分 & \beta の初期値 & \beta の増分 &
+l.34 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Missing } inserted.
+./chapter4.tex:34: Missing } inserted.
 <inserted text> 
                 }
-l.36 ...a の増分 & \beta の初期値 & \beta の増分 &
+l.34 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -933,18 +951,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ... & \beta の初期値 & \beta の増分 & \alpha
+l.34 ... & \beta の初期値 & \beta の増分 & \alpha
                                                   の更新回数 \\ \hline \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Extra }, or forgotten $.
+./chapter4.tex:34: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.36 ...\beta の増分 & \alpha の更新回数 \\ \hline
+l.34 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -952,18 +970,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:36: Missing $ inserted.
+./chapter4.tex:34: Missing $ inserted.
 <inserted text> 
                 $
-l.36 ...\beta の増分 & \alpha の更新回数 \\ \hline
+l.34 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:36: Missing } inserted.
+./chapter4.tex:34: Missing } inserted.
 <inserted text> 
                 }
-l.36 ...\beta の増分 & \alpha の更新回数 \\ \hline
+l.34 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -971,132 +989,132 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37       取りうる値 & 0.0 \sim
-                                 8.0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \si...
+l.35       取りうる値 & 0．0 \sim
+                                  8．0 & 0．5 \sim 4．0 & 0．0 \sim 8．0 & 0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Extra }, or forgotten $.
+./chapter4.tex:35: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.37       取りうる値 & 0.0 \sim 8.0 &
-                                       0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \si...
+l.35       取りうる値 & 0．0 \sim 8．0 &
+                                         0．5 \sim 4．0 & 0．0 \sim 8．0 & 0...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37       取りうる値 & 0.0 \sim 8.0 &
-                                       0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \si...
+l.35       取りうる値 & 0．0 \sim 8．0 &
+                                         0．5 \sim 4．0 & 0．0 \sim 8．0 & 0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Missing } inserted.
+./chapter4.tex:35: Missing } inserted.
 <inserted text> 
                 }
-l.37       取りうる値 & 0.0 \sim 8.0 &
-                                       0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \si...
+l.35       取りうる値 & 0．0 \sim 8．0 &
+                                         0．5 \sim 4．0 & 0．0 \sim 8．0 & 0...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37       取りうる値 & 0.0 \sim 8.0 & 0.5 \sim
-                                                4.0 & 0.0 \sim 8.0 & 0.5 \si...
+l.35       取りうる値 & 0．0 \sim 8．0 & 0．5 \sim
+                                                   4．0 & 0．0 \sim 8．0 & 0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Extra }, or forgotten $.
+./chapter4.tex:35: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.37 ...取りうる値 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
-                                                   0.0 \sim 8.0 & 0.5 \sim 4...
+l.35 ...うる値 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
+                                                   0．0 \sim 8．0 & 0．5 \si...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...取りうる値 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
-                                                   0.0 \sim 8.0 & 0.5 \sim 4...
+l.35 ...うる値 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
+                                                   0．0 \sim 8．0 & 0．5 \si...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Missing } inserted.
+./chapter4.tex:35: Missing } inserted.
 <inserted text> 
                 }
-l.37 ...取りうる値 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
-                                                   0.0 \sim 8.0 & 0.5 \sim 4...
+l.35 ...うる値 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
+                                                   0．0 \sim 8．0 & 0．5 \si...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ... & 0.0 \sim 8.0 & 0.5 \sim 4.0 & 0.0 \sim
-                                                  8.0 & 0.5 \sim 4.0 & 1 \sim 1
+l.35 ...．0 \sim 8．0 & 0．5 \sim 4．0 & 0．0 \sim
+                                                   8．0 & 0．5 \sim 4．0 & 1...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Extra }, or forgotten $.
+./chapter4.tex:35: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.37 ...0 \sim 8.0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 &
-                                                   0.5 \sim 4.0 & 1 \sim 10 ...
+l.35 ...m 8．0 & 0．5 \sim 4．0 & 0．0 \sim 8．0 &
+                                                   0．5 \sim 4．0 & 1 \sim 1...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...0 \sim 8.0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 &
-                                                   0.5 \sim 4.0 & 1 \sim 10 ...
+l.35 ...m 8．0 & 0．5 \sim 4．0 & 0．0 \sim 8．0 &
+                                                   0．5 \sim 4．0 & 1 \sim 1...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Missing } inserted.
+./chapter4.tex:35: Missing } inserted.
 <inserted text> 
                 }
-l.37 ...0 \sim 8.0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 &
-                                                   0.5 \sim 4.0 & 1 \sim 10 ...
+l.35 ...m 8．0 & 0．5 \sim 4．0 & 0．0 \sim 8．0 &
+                                                   0．5 \sim 4．0 & 1 \sim 1...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...0 & 0.5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \sim
-                                                   4.0 & 1 \sim 10 \\ \hline
+l.35 ...．5 \sim 4．0 & 0．0 \sim 8．0 & 0．5 \sim
+                                                   4．0 & 1 \sim 10 \\ \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Extra }, or forgotten $.
+./chapter4.tex:35: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.37 ...5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
+l.35 ...m 4．0 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
                                                    1 \sim 10 \\ \hline
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1104,18 +1122,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
+l.35 ...m 4．0 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
                                                    1 \sim 10 \\ \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Missing } inserted.
+./chapter4.tex:35: Missing } inserted.
 <inserted text> 
                 }
-l.37 ...5 \sim 4.0 & 0.0 \sim 8.0 & 0.5 \sim 4.0 &
+l.35 ...m 4．0 & 0．0 \sim 8．0 & 0．5 \sim 4．0 &
                                                    1 \sim 10 \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1123,18 +1141,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...4.0 & 0.0 \sim 8.0 & 0.5 \sim 4.0 & 1 \sim
+l.35 ...& 0．0 \sim 8．0 & 0．5 \sim 4．0 & 1 \sim
                                                    10 \\ \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Extra }, or forgotten $.
+./chapter4.tex:35: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.37 ...m 8.0 & 0.5 \sim 4.0 & 1 \sim 10 \\ \hline
+l.35 ...．0 & 0．5 \sim 4．0 & 1 \sim 10 \\ \hline
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1142,18 +1160,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:37: Missing $ inserted.
+./chapter4.tex:35: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...m 8.0 & 0.5 \sim 4.0 & 1 \sim 10 \\ \hline
+l.35 ...．0 & 0．5 \sim 4．0 & 1 \sim 10 \\ \hline
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:37: Missing } inserted.
+./chapter4.tex:35: Missing } inserted.
 <inserted text> 
                 }
-l.37 ...m 8.0 & 0.5 \sim 4.0 & 1 \sim 10 \\ \hline
+l.35 ...．0 & 0．5 \sim 4．0 & 1 \sim 10 \\ \hline
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1164,132 +1182,132 @@ my insertion and my current dilemma will both disappear.
 [13
 
 ] [14]
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100       \alpha
-                   の初期値 & \alpha の増分 & \beta の初期値 & \beta の増分 ...
+l.99       \alpha
+                  の初期値 & \alpha の増分 & \beta の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Extra }, or forgotten $.
+./chapter4.tex:99: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.100       \alpha の初期値 &
-                              \alpha の増分 & \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 &
+                             \alpha の増分 & \beta の初期値 & \beta の増分 &...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100       \alpha の初期値 &
-                              \alpha の増分 & \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 &
+                             \alpha の増分 & \beta の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Missing } inserted.
+./chapter4.tex:99: Missing } inserted.
 <inserted text> 
                 }
-l.100       \alpha の初期値 &
-                              \alpha の増分 & \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 &
+                             \alpha の増分 & \beta の初期値 & \beta の増分 &...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100       \alpha の初期値 & \alpha
-                                     の増分 & \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 & \alpha
+                                    の増分 & \beta の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Extra }, or forgotten $.
+./chapter4.tex:99: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.100       \alpha の初期値 & \alpha の増分 &
-                                              \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 & \alpha の増分 &
+                                             \beta の初期値 & \beta の増分 &...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100       \alpha の初期値 & \alpha の増分 &
-                                              \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 & \alpha の増分 &
+                                             \beta の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Missing } inserted.
+./chapter4.tex:99: Missing } inserted.
 <inserted text> 
                 }
-l.100       \alpha の初期値 & \alpha の増分 &
-                                              \beta の初期値 & \beta の増分 ...
+l.99       \alpha の初期値 & \alpha の増分 &
+                                             \beta の初期値 & \beta の増分 &...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...  \alpha の初期値 & \alpha の増分 & \beta
+l.99       \alpha の初期値 & \alpha の増分 & \beta
                                                    の初期値 & \beta の増分 &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Extra }, or forgotten $.
+./chapter4.tex:99: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.100 ...初期値 & \alpha の増分 & \beta の初期値 &
-                                                   \beta の増分 & \alpha の...
+l.99 ...初期値 & \alpha の増分 & \beta の初期値 &
+                                                  \beta の増分 & \alpha の更新
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...初期値 & \alpha の増分 & \beta の初期値 &
-                                                   \beta の増分 & \alpha の...
+l.99 ...初期値 & \alpha の増分 & \beta の初期値 &
+                                                  \beta の増分 & \alpha の更新
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Missing } inserted.
+./chapter4.tex:99: Missing } inserted.
 <inserted text> 
                 }
-l.100 ...初期値 & \alpha の増分 & \beta の初期値 &
-                                                   \beta の増分 & \alpha の...
+l.99 ...初期値 & \alpha の増分 & \beta の初期値 &
+                                                  \beta の増分 & \alpha の更新
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ... & \alpha の増分 & \beta の初期値 & \beta
-                                                   の増分 & \alpha の更新回...
+l.99 ... & \alpha の増分 & \beta の初期値 & \beta
+                                                  の増分 & \alpha の更新回数 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Extra }, or forgotten $.
+./chapter4.tex:99: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.100 ... の増分 & \beta の初期値 & \beta の増分 &
+l.99 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1297,18 +1315,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ... の増分 & \beta の初期値 & \beta の増分 &
+l.99 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Missing } inserted.
+./chapter4.tex:99: Missing } inserted.
 <inserted text> 
                 }
-l.100 ... の増分 & \beta の初期値 & \beta の増分 &
+l.99 ...a の増分 & \beta の初期値 & \beta の増分 &
                                                    \alpha の更新回数 \\ \hli...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1316,18 +1334,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ... & \beta の初期値 & \beta の増分 & \alpha
-                                                   の更新回数 \\ \hline \hline
+l.99 ... & \beta の初期値 & \beta の増分 & \alpha
+                                                  の更新回数 \\ \hline \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Extra }, or forgotten $.
+./chapter4.tex:99: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.100 ...beta の増分 & \alpha の更新回数 \\ \hline
+l.99 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1335,18 +1353,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapter4.tex:100: Missing $ inserted.
+./chapter4.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...beta の増分 & \alpha の更新回数 \\ \hline
+l.99 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:100: Missing } inserted.
+./chapter4.tex:99: Missing } inserted.
 <inserted text> 
                 }
-l.100 ...beta の増分 & \alpha の更新回数 \\ \hline
+l.99 ...\beta の増分 & \alpha の更新回数 \\ \hline
                                                    \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1354,31 +1372,41 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 107.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 107.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 107.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 107.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 107.
 File: image/bar_utility.eps Graphic file (type eps)
 <image/bar_utility.eps> [15]
 File: image/bar_social_surplus.eps Graphic file (type eps)
  <image/bar_social_surplus.eps>
 File: image/bar_broken_rate.eps Graphic file (type eps)
  <image/bar_broken_rate.eps> [16] [17]
-./chapter4.tex:141: Missing $ inserted.
+./chapter4.tex:142: Missing $ inserted.
 <inserted text> 
                 $
-l.141 ...ection{パラメータ\alpha の実験結果と考察}
+l.142 ...ection{パラメータ\alpha の実験結果と考察}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:141: Missing $ inserted.
+./chapter4.tex:142: Missing $ inserted.
 <inserted text> 
                 $
-l.141 ...ection{パラメータ\alpha の実験結果と考察}
+l.142 ...ection{パラメータ\alpha の実験結果と考察}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 141.
+(hyperref)                removing `\alpha' on input line 142.
 
 File: image/a_util_1.eps Graphic file (type eps)
 <image/a_util_1.eps>
@@ -1393,41 +1421,42 @@ File: image/a_rate_2.eps Graphic file (type eps)
 File: image/a_rate_3.eps Graphic file (type eps)
  <image/a_rate_3.eps> [20] [21]
 File: image/change_num.eps Graphic file (type eps)
- <image/change_num.eps> [22]
-./chapter4.tex:207: Missing $ inserted.
+ <image/change_num.eps>
+./chapter4.tex:213: Missing $ inserted.
 <inserted text> 
                 $
-l.207 ...section{パラメータ\beta の実験結果と考察}
+l.213 ...section{パラメータ\beta の実験結果と考察}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter4.tex:207: Missing $ inserted.
+./chapter4.tex:213: Missing $ inserted.
 <inserted text> 
                 $
-l.207 ...section{パラメータ\beta の実験結果と考察}
+l.213 ...section{パラメータ\beta の実験結果と考察}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 207.
+(hyperref)                removing `\beta' on input line 213.
 
+[22]
 File: image/b_util_1.eps Graphic file (type eps)
-<image/b_util_1.eps>
+ <image/b_util_1.eps>
 File: image/b_util_2.eps Graphic file (type eps)
- <image/b_util_2.eps> [23]
+ <image/b_util_2.eps>
 File: image/b_util_3.eps Graphic file (type eps)
- <image/b_util_3.eps>
+ <image/b_util_3.eps> [23]
 File: image/b_rate_1.eps Graphic file (type eps)
- <image/b_rate_1.eps> [24]
+ <image/b_rate_1.eps>
 File: image/b_rate_2.eps Graphic file (type eps)
- <image/b_rate_2.eps>
+ <image/b_rate_2.eps> [24]
 File: image/b_rate_3.eps Graphic file (type eps)
- <image/b_rate_3.eps> [25] [26]) (./chapter5.tex [27]
+ <image/b_rate_3.eps> [25]) (./chapter5.tex [26]
 第 6 章
-[28
+[27
 
 ]
 ./chapter5.tex:46: Missing $ inserted.
@@ -1621,19 +1650,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 File: image/util_vh.eps Graphic file (type eps)
-<image/util_vh.eps> [29]
+<image/util_vh.eps> [28]
 File: image/util_user.eps Graphic file (type eps)
  <image/util_user.eps>
 File: image/result_utility_diff.eps Graphic file (type eps)
- <image/result_utility_diff.eps> [30]
+ <image/result_utility_diff.eps> [29]
 File: image/result_social_surplus.eps Graphic file (type eps)
  <image/result_social_surplus.eps>
 File: image/result_broken_rate.eps Graphic file (type eps)
- <image/result_broken_rate.eps> [31] [32]) (./chapter6.tex [33]
+ <image/result_broken_rate.eps> [30] [31]) (./chapter6.tex [32]
 第 7 章
-[34
+[33
 
-]) (./end.tex [35] (./main.bbl [36
+]) (./end.tex [34] (./main.bbl [35
 
 ]
 
@@ -1650,14 +1679,14 @@ LaTeX Font Info:    Font shape `JY1/hgt/m/it' will be
 (Font)              scaled to size 10.53629pt on input line 13.
 Missing character: There is no ^^c3 in font cmr10!
 Missing character: There is no ^^a3 in font cmr10!
-[37
+[36
 
-] [38]
+] [37]
 Missing character: There is no ^^c3 in font cmr10!
 Missing character: There is no ^^a3 in font cmr10!
 ) Excluding 'comment' comment.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
- [39]
+ [38]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 34.
@@ -1678,12 +1707,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
 ### simple group (level 1) entered at line 48 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9219 strings out of 493653
- 132508 string characters out of 6148874
- 234444 words of memory out of 5000000
- 12637 multiletter control sequences out of 15000+600000
- 18754 words of font info for 86 fonts, out of 8000000 for 9000
+ 9239 strings out of 493653
+ 132725 string characters out of 6148874
+ 234442 words of memory out of 5000000
+ 12651 multiletter control sequences out of 15000+600000
+ 21449 words of font info for 100 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 46i,11n,42p,685b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,42p,669b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (46 pages, 158492 bytes).
+Output written on main.dvi (45 pages, 161384 bytes).

@@ -1,4 +1,4 @@
-\documentclass[a4paper, 10.5pt, twoside]{jreport}
+\documentclass[a4paper， 10．5pt， twoside]{jreport}
 
 \include{begin}
 
@@ -10,25 +10,28 @@
 \section{自動交渉エージェント競技会(ANAC)}
 
 \subsection{ANAC}
-自動交渉エージェント競技会(Automated Negotiation Agent Competition)は各自が作成したエージェント同士で交渉を行い個人獲得効用や社会的余剰などを競う競技会である\cite{anac2010-2015,anac2016,anac2017,anac2018}.
-ANACは毎年開催され,2010年(第1回)から2016年(第7回)まではInternationalConference on Autonomous Agents and Multiagent Systems(AAMAS)と共催で行われた.2017年(第8回),2018年(第9回)はInternational Joint Conference on Artificial Intelligence(IJCAI)と共催で行われ,
-2019年度(第10回)もIJCAIと共催で行われる予定である.
-ANACは以下の4点を目的としている.
+自動交渉エージェント競技会(Automated Negotiation Agent Competition)は各自が作成したエージェント同士で交渉を行い個人獲得効用や社会的余剰などを競う競技会である\cite{anac2010-2015,anac2016,anac2017,anac2018}．
+ANACは毎年開催され，
+2010年(第1回)から2016年(第7回)まではInternational Conference on Autonomous Agents and Multiagent Systems(AAMAS)と共催で行われた．
+2017年(第8回)，2018年(第9回)はInternational Joint Conference on Artificial Intelligence(IJCAI)と共催で行われ，
+2019年度(第10回)もIJCAIと共催で行われる予定である．
+ANACは以下の4点を目的としている．
 \begin{itemize}
-  \item 未知の相手に対し,様々な状況で巧みに交渉できる実用的な交渉エージェントの設計を促進
+  \item 未知の相手に対し，様々な状況で巧みに交渉できる実用的な交渉エージェントの設計を促進
   する
   \item 様々な交渉戦略を客観的に評価する指標を提供する
-  \item 様々な学習手法,適応戦略,交渉相手のモデル構築を探求する
-  \item 最先端の交渉エージェントと交渉シナリオを収集し,研究コミュニティに提供する
+  \item 様々な学習手法，適応戦略，交渉相手のモデル構築を探求する
+  \item 最先端の交渉エージェントと交渉シナリオを収集し，研究コミュニティに提供する
 \end{itemize}
 
-ANACでは2016年までは自動交渉のプラットフォームであるGeniusを用いて単一のリーグが開催されていた.
-2017年からは複数のリーグが開催され,Geniusを使用し任意のドメインで交渉を行うRepeated Multilateral Negotiation League,Bandana(BAsic eNvironment for Diplomacy playing Automated Negotiating Agents)を使用しボードゲームのDiplomacyの交渉を扱うDiplomacy
-Strategy Game League,IAGO(Interactive Arbitration Guide Online)を使用し人間とエージェントの交渉を扱うHuman-Agent Negotiation Leagueの3つのリーグが開催された.
-また,2018年からはHuman-Agent Negotiation Leagueでは人間とエージェントの繰り返し交渉が行われている.
+ANACでは2016年までは自動交渉のプラットフォームであるGeniusを用いて単一のリーグが開催されていた．
+2017年からは複数のリーグが開催され，Geniusを使用し任意のドメインで交渉を行うRepeated Multilateral Negotiation League，Bandana(BAsic eNvironment for Diplomacy playing Automated Negotiating Agents)を使用しボードゲームのDiplomacyの交渉を扱うDiplomacy
+Strategy Game League，IAGO(Interactive Arbitration Guide Online)を使用し
+人間とエージェントの交渉を扱うHuman-Agent Negotiation Leagueの3つのリーグが開催された．
+また，2018年からはHuman-Agent Negotiation Leagueでは人間とエージェントの繰り返し交渉が行われている．
 
 
-\begin{figure}[htb]
+\begin{figure}[tb]
   \centering
   \includegraphics[width=15truecm]{image/IAGO.eps}
   \caption{IAGOのインタフェース}
@@ -36,9 +39,9 @@ Strategy Game League,IAGO(Interactive Arbitration Guide Online)を使用し人�
 \end{figure}
 
 \subsection{IAGO}
-IAGO(Interactive Arbitration Guide Online)はANACのHuman-Agent Negotiationリーグで使用される自動交渉のプラットフォームである\cite{iago}.
-IAGOのインタフェースを図\ref{fig:iago}に示す.
-IAGOでは,人間と交渉を行うエージェントおよび交渉のドメインを作成することが可能である.IAGOの特徴として以下の3点が挙げられる\cite{pinocchio}.
+IAGO(Interactive Arbitration Guide Online)はANACのHuman-Agent Negotiationリーグで使用される自動交渉のプラットフォームである\cite{iago}．
+IAGOのインタフェースを図\ref{fig:iago}に示す．
+IAGOでは，人間と交渉を行うエージェントおよび交渉のドメインを作成することが可能である．IAGOの特徴として以下の3点が挙げられる\cite{pinocchio}．
 
 \begin{enumerate}
   \item WEB上で動作する
@@ -46,21 +49,23 @@ IAGOでは,人間と交渉を行うエージェントおよび交渉のドメイ
   \item 人間同士の交渉で用いられるチャネルが利用可能
 \end{enumerate}
 
-第1の特徴により,エージェントと交渉を行うクライアントはWEBブラウザ上で交渉を行うことが可能である.
-したがって,クライアントはソフトウェアのインストールなどを行うことなく交渉を開始することができる.
-第2の特徴により,競技会や研究のためのエージェントおよび交渉ドメインの設計を容易に行うことが可能となる.
-第3の特徴により,エージェントおよびクライアントは感情の表出,メッセージの送信,選好の公開および誘発などを交渉中に行うことが可能となる.
-これにより,人間同士の交渉で用いられるチャネルによる交渉結果への影響を研究することおよび
-これらのチャネルを利用した交渉を行うエージェントを作成することが容易となる.
-IAGOでは,サンプルとしてPinocchioエージェントがあらかじめ用意されており,本研究では,Pinocchioエージェントをベースにして戦略の実装し,実験を行う.
+第1の特徴により，エージェントと交渉を行うクライアントはWEBブラウザ上で交渉を行うことが可能である．
+したがって，クライアントはソフトウェアのインストールなどを行うことなく交渉を開始することができる．
+第2の特徴により，競技会や研究のためのエージェントおよび交渉ドメインの設計を容易に行うことが可能となる．
+第3の特徴により，エージェントおよびクライアントは感情の表出，メッセージの送信，選好の公開および誘発などを交渉中に行うことが可能となる．
+これにより，人間同士の交渉で用いられるチャネルによる交渉結果への影響を研究することおよび
+これらのチャネルを利用した交渉を行うエージェントを作成することが容易となる．
+IAGOでは，サンプルとしてPinocchioエージェントがあらかじめ用意されており，本研究では，Pinocchioエージェントをベースにして戦略の実装し，実験を行う．
 
 \section{自動交渉における心理的効果に関する研究}
-人間とエージェントの交渉における心理的効果に関する研究としてCelsoらの研究がある\cite{emotion}.
-この研究では,交渉相手がエージェントだと知らされた上で感情が交渉に対して影響を与えるか調査している.
-同時に,感情の伝達方法によって交渉に与える効果の差異についても調査している.
-交渉はAlternating Offers Protocol\cite{aop}を用いて行い,感情は怒り,喜び,中立の3種類,感情の伝達方法は言語,画像の2種類について実験を行なっている.
-実験は150人の被験者に対して行われ,実験の結果,エージェントが怒りの感情を相手に伝えた場合被験者は大きく譲歩し,喜びの感情を相手に伝えた場合被験者はあまり譲歩しないという結果となった.また,感情の伝達方法については譲歩の度合いに有意差はなく,感情は伝達方法とは独立に交渉結果に影響を与え,感情によって交渉結果が異なることが明らかになった.
-この研究では,今後の展望として繰り返し交渉において感情のような心理的効果が与える影響について調査する必要性について述べられている.
+人間とエージェントの交渉における心理的効果に関する研究としてCelsoらの研究がある\cite{emotion}．
+この研究では，交渉相手がエージェントだと知らされた上で感情が交渉に対して影響を与えるか調査している．
+同時に，感情の伝達方法によって交渉に与える効果の差異についても調査している．
+交渉はAlternating Offers Protocol\cite{aop}を用いて行い，感情は怒り，喜び，中立の3種類，感情の伝達方法は言語，画像の2種類について実験を行なっている．
+実験は150人の被験者に対して行われ，
+実験の結果，エージェントが怒りの感情を相手に伝えた場合被験者は大きく譲歩し，喜びの感情を相手に伝えた場合被験者はあまり譲歩しないという結果となった．
+また，感情の伝達方法については譲歩の度合いに有意差はなく，感情は伝達方法とは独立に交渉結果に影響を与え，感情によって交渉結果が異なることが明らかになった．
+この研究では，今後の展望として繰り返し交渉において感情のような心理的効果が与える影響について調査する必要性について述べられている．
 
 %内容ここまで
 
